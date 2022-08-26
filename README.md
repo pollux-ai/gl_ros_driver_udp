@@ -1,4 +1,22 @@
 # GL-3 (Mechanical scanning 2D LiDAR)
+## 변경내용
+
+`gl_ros_driver_udp/launch/gl_ros_driver_udp.launch` 에서
+ 
+기존 아래의 param을
+```
+<param name="gl_ip" type="string" value="10.110.1.2"/>
+<param name="gl_port" type="int" value="2000"/>
+<param name="pc_port" type="int" value="3000"/>
+```
+
+mk2, mk3 에 맞게 변경
+```
+<param name="gl_ip" type="string" value="100.100.100.2"/>
+<param name="gl_port" type="int" value="2000"/>
+<param name="pc_port" type="int" value="4000"/>
+```
+
 
 ## Guide
 - Installation
