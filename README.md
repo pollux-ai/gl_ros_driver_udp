@@ -22,7 +22,7 @@ mk2, mk3 에 맞게 변경
 - Installation
 ```
 $ cd ${ROS workspace}/src
-$ git clone --recurse-submodules https://github.com/soslab-project/gl_ros_driver_udp.git
+$ git clone --recurse-submodules https://github.com/pollux-ai/gl_ros_driver_udp.git
 $ cd $(ROS workspace)
 $ catkin_make -DCMAKE_BUILD_TYPE=Release
 ```
